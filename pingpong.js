@@ -83,8 +83,6 @@ let listeDeRègles = [
 //   new Règle(7, 'Zop')
 // ]
 
-// console.log(retourneLeResultaPingPong(début, fin, listeDeRègles))
-
 //-----------------------------------------------------------------------------------------------
 
 document.getElementById("PingPongOutput").innerHTML = retourneLeResultaHTMLPingPong(début, fin, listeDeRègles)
