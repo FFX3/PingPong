@@ -50,7 +50,7 @@ function modifierTextÀConditionDesRésultasDesRègles(original, résultasDesRè
 }
 
 
-function retourneLeResultaHTMLPingPong(début, fin, listeDeRègles){
+function retourneLeRésultaHTMLPingPong(début, fin, listeDeRègles){
   let htmlString = ''
 
   for(let i = début; i <= fin; i++){
@@ -85,6 +85,6 @@ let listeDeRègles = [
 
 //-----------------------------------------------------------------------------------------------
 
-document.getElementById("PingPongOutput").innerHTML = retourneLeResultaHTMLPingPong(début, fin, listeDeRègles)
+document.getElementById("PingPongOutput").innerHTML = retourneLeRésultaHTMLPingPong(début, fin, listeDeRègles)
 
 </script>
